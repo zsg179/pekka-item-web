@@ -17,7 +17,6 @@ public class Item extends TbItem {
 		this.setStatus(tbItem.getStatus());
 		this.setCreated(tbItem.getCreated());
 		this.setUpdated(tbItem.getUpdated());
-		this.setAdId(tbItem.getAdId());
 	}
 
 	public String[] getImages() {
