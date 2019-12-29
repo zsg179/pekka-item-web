@@ -1563,7 +1563,7 @@ var $o = function() {
 //    var n = new a;
 //    return n.bind_input(), n
 }();
-pageConfig.FN_InitSidebar = function() {
+/*pageConfig.FN_InitSidebar = function() {
     $("#toppanel").length || $(document.body).prepend('<div class="w ld" id="toppanel"></div>'), $("#toppanel").append('<div id="sidepanel" class="hide"></div>');
     var a = $("#sidepanel");
     this.scroll = function() {
@@ -1595,3 +1595,4 @@ pageConfig.FN_InitSidebar = function() {
         Contrast && Contrast.init(c, a)
     }), pageConfig.isInitContrast = 1, void 0)
 };
+*/
